@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Tic-Tac-Toe</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Tic-Tac-Toe</h1>
+            <div class="scoreboard">
+                <div class="score player-x">Player X: <span id="score-x">0</span></div>
+                <div class="score player-o">Player O: <span id="score-o">0</span></div>
+            </div>
+        </header>
+        <main>
+            <div class="status">
+                <p>Current Player: <span id="current-player">X</span></p>
+            </div>
+            <div id="container">
+                <div class="box" data-index="0"></div>
+                <div class="box" data-index="1"></div>
+                <div class="box" data-index="2"></div>
+                <div class="box" data-index="3"></div>
+                <div class="box" data-index="4"></div>
+                <div class="box" data-index="5"></div>
+                <div class="box" data-index="6"></div>
+                <div class="box" data-index="7"></div>
+                <div class="box" data-index="8"></div>
+            </div>
+            <button class="new-game">New Game</button>
+        </main>
+        <footer>
+            <p>Created with ❤️ by Sanjit Pal</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
