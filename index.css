@@ -9,7 +9,7 @@
     font-family: 'Poppins', sans-serif;
 } 
 
-body {
+body { 
     background: linear-gradient(135deg, #ece9e6, #ffffff); 
     display: flex;
     justify-content: center;
